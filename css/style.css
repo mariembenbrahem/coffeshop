@@ -1,0 +1,243 @@
+                            /*  * : all*/
+                            /* reset margin w il padding par defaut 
+margin : espace entre les deux emelment w il apdding : esapce entre le meme objet */
+                            
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                                /** pour ne pas infliencer a la modification des borderd*/
+                            }
+                            
+                            html,
+                            body {
+                                font-family: 'Open Sans', sans-serif;
+                                color: #222;
+                            }
+                            
+                            h1,
+                            h2,
+                            h3 {
+                                margin-top: 20px;
+                            }
+                            
+                            a {
+                                color: #222;
+                                text-decoration: none;
+                            }
+                            /*header*/
+                            
+                            .header {
+                                background-color: #333;
+                                overflow: auto;
+                            }
+                            
+                            .header nav h1 {
+                                float: left;
+                                padding: 20px;
+                                margin-bottom: 0px;
+                            }
+                            
+                            .header nav ul {
+                                float: right;
+                                list-style: none;
+                                padding: 20px;
+                            }
+                            
+                            .header nav ul li {
+                                float: left;
+                            }
+                            
+                            .header nav ul li a {
+                                color: white;
+                                padding: 20px;
+                                display: block;
+                            }
+                            
+                            .header nav h1 a {
+                                color: white;
+                            }
+                            
+                            .header nav ul li a:hover {
+                                background-color: #444;
+                            }
+                            
+                            .active {
+                                background-color: #444;
+                            }
+                            /*vb*/
+                            
+                            .vb {
+                                height: 700px;
+                                background: url(../images/cafe1.jpg) center center;
+                                background-size: cover;
+                                text-align: center;
+                                padding: 20px;
+                            }
+                            
+                            .vb-content {
+                                max-width: 600px;
+                                padding-top: 150px;
+                                color: white;
+                                display: block;
+                                margin: auto;
+                            }
+                            
+                            .vb-content h1 {
+                                font-size: 50px;
+                            }
+                            
+                            .vb-content p {
+                                font-size: 18px;
+                                letter-spacing: 0.5px;
+                                line-height: 1.9em;
+                            }
+                            
+                            .vb.separator {
+                                margin: 20px auto;
+                                height: 10px;
+                                width: 400px;
+                                background-color: #111;
+                            }
+                            
+                            p {
+                                margin-bottom: 10px;
+                                overflow: auto;
+                            }
+                            
+                            .btn {
+                                display: inline-block;
+                                padding: 15px 25px;
+                                border-radius: 30px;
+                                font-weight: 700;
+                                border: none;
+                                cursor: pointer;
+                                /* font-size: 19px;
+                            */
+                            }
+                            
+                            .btn-primary {
+                                background: white;
+                                color: #222;
+                            }
+                            
+                            .btn-primary:hover {
+                                background: #222;
+                                color: white;
+                            }
+                            
+                            .my-10 {
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                            }
+                            
+                            .container {
+                                max-width: 1000px;
+                                display: block;
+                                margin: auto;
+                            }
+                            
+                            .feature {
+                                width: 50%;
+                                float: left;
+                            }
+                            
+                            .features {
+                                overflow: hidden;
+                                padding: 100px 0px 100px 0px;
+                                text-align: center;
+                            }
+                            
+                            .person {
+                                height: 400px;
+                                background: url(../images/cafe3.jpg) center center/cover;
+                                /*background-size: cover;
+                                */
+                            }
+                            
+                            .my-20 {
+                                margin-top: 20px;
+                                margin-bottom: 20px;
+                            }
+                            
+                            .btn-dark {
+                                background: #222;
+                                color: white;
+                            }
+                            
+                            .btn-dark:hover {
+                                background: white;
+                                color: #222;
+                                border: 1px solid #222;
+                            }
+                            /* reservation */
+                            
+                            .reservation {
+                                padding: 100px 0px 100px 0px;
+                                text-align: center;
+                            }
+                            /* footer */
+                            
+                            footer {
+                                background: #222;
+                                color: white;
+                                padding: 40px 0px 40px 0px;
+                                text-align: center;
+                            }
+                            
+                            footer p {
+                                margin-bottom: 0px;
+                            }
+                            /* where */
+                            
+                            .where {
+                                padding: 180px 0px 100px 0px;
+                                overflow: auto;
+                                min-height: 100vh;
+                            }
+                            
+                            .where-img {
+                                float: left;
+                                width: 45%;
+                                border: 1px solid #ddd;
+                                border-radius: 5px;
+                            }
+                            
+                            .where-text {
+                                float: right;
+                                width: 50%;
+                            }
+                            /* contact */
+                            
+                            .contact {
+                                padding: 180px 0px 100px 0px;
+                                min-height: 100vh;
+                            }
+                            
+                            .contact-form-container {
+                                max-width: 600px;
+                                margin: auto;
+                            }
+                            
+                            .contact-form-container form label {
+                                display: block;
+                                font-weight: 700;
+                            }
+                            
+                            .contact-form-container form input,
+                            textarea {
+                                display: block;
+                                font-weight: 100%;
+                                padding: 15px;
+                                border: 1px solid #ddd;
+                                border-radius: 3px;
+                            }
+                            
+                            .contact-form-container form textarea {
+                                min-height: 80px;
+                                display: block;
+                                font-weight: 100%;
+                                padding: 15px;
+                                border: 1px solid #ddd;
+                                border-radius: 3px;
+                            }
